@@ -30,6 +30,7 @@ main {
     text-align: center;
     font-size: 32px;
     padding-top: 100px;
+    padding-bottom: 20px;
 }
 
 .banner-title {
@@ -40,6 +41,7 @@ main {
     font-weight: 900;
     line-height: 95px;
     padding-bottom: 100px;
+    padding-top: 10px;
 }
 
 /* greeting-atyle */
