@@ -1,0 +1,43 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Open+Sans:wght@400;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* banner style */
+.banner-item {
+    background-image: url('B9A1-New-Year-New-Mission/resources/Banner\ Image.png');
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+.banner-greeting {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 100px;
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    padding-bottom: 100px;
+}
