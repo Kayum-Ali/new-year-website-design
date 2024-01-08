@@ -79,14 +79,15 @@ main {
 }
 
 /* wellcome style  */
-.wellcome{
+.wellcome {
     margin: 120px 0px;
 }
+
 .wellcome-container {
-   
+
     background-image: url('B9A1-New-Year-New-Mission/resources/Vectorrr.png');
     background-size: cover;
-   
+
 }
 
 .wellcome-item {
@@ -122,4 +123,45 @@ main {
     font-weight: 700;
     text-transform: uppercase;
     background: transparent;
+}
+
+/* schedule area style  */
+.schedule-container {
+    background-image: linear-gradient(to bottom right, #FFEAEA, rgba(255, 0, 0, 0));
+}
+
+.schedule-top {
+    text-align: center;
+    /* padding: 70px 100px 0px; */
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 600;
+}
+.red{
+    color: red;
+    font-size: 32px;
+}
+
+.schedule-bottom {
+    text-align: center;
+}
+
+.schedule-bottom>.btn-primary {
+    /* padding: 13px 25px; */
+    background-color: red;
+    margin-top: 30px;
+    border-radius: 8px;
+    color: #fff;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 700;
+}
+.schedule-item{
+   padding: 100px 150px;
+   margin-bottom: 100px;
 }
