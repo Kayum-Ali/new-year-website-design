@@ -1,7 +1,3 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Open+Sans:wght@400;700;800&display=swap');
-
-
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +7,7 @@
 body {
     font-family: 'Merriweather', serif;
     /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Inter', sans-serif;
 }
 
 main {
@@ -28,6 +25,7 @@ main {
 
 .banner-greeting {
     color: #FFF;
+    font-family: Merriweather;
     text-align: center;
     font-size: 32px;
     padding-top: 100px;
@@ -36,8 +34,92 @@ main {
 .banner-title {
     color: #FFF;
     text-align: center;
+    font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
     padding-bottom: 100px;
+}
+
+/* greeting-atyle */
+.greeting {
+    margin: 60px 80px;
+}
+
+.greeting img {
+    width: 100%;
+    justify-content: center;
+}
+
+.greeting-title {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.greeting-subtitle {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.greeting-description {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+/* wellcome style  */
+.wellcome{
+    margin: 120px 0px;
+}
+.wellcome-container {
+   
+    background-image: url('B9A1-New-Year-New-Mission/resources/Vectorrr.png');
+    background-size: cover;
+   
+}
+
+.wellcome-item {
+    display: flex;
+    gap: 50px;
+    /* justify-content: space-between; */
+    padding: 100px;
+
+}
+
+.wellcome-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-weight: 900;
+    /* line-height: 88px; */
+    margin-bottom: 20px;
+}
+
+.wellcome-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: transparent;
 }
