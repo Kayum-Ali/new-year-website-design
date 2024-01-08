@@ -261,7 +261,8 @@ main {
     font-weight: 500;
     line-height: 32px
 }
-.holiday-images{
+
+.holiday-images {
     display: flex;
     justify-content: center;
     /* max-width: 300px; */
@@ -269,21 +270,66 @@ main {
     background-image: url('B9A1-New-Year-New-Mission/resources/Rectangle\ 2.png');
     background-repeat: no-repeat;
     background-position: bottom;
-    margin-bottom: 40px;
-    
-    
+    margin-bottom: 50px;
+
+
 }
-.img-left img{
+
+.img-left img {
     width: 552px;
 }
-.img-right img{
+
+.img-right img {
     width: 350px;
 }
-.img-left{
+
+.img-left {
     background-image: url('B9A1-New-Year-New-Mission/resources/Group\ 44.png');
     background-repeat: no-repeat;
     background-position: top right;
 
-    
+
 }
+
 /* portfolio style  */
+.portfolio-container{
+    margin-bottom: 100px;
+}
+.portfolio-subtitle {
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+
+.portfolio-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.portfolio-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 800px;
+    /* 160% */
+}
+
+.portfolio-item {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0px 15px;
+}
+
+.img-colum .width {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
