@@ -17,7 +17,7 @@ main {
 
 /* banner style */
 .banner-item {
-    background-image: url('B9A1-New-Year-New-Mission/resources/Banner\ Image.png');
+    background-image: url('resources/banner.png');
     background-size: cover;
     margin: 0 auto;
     border-radius: 16px;
@@ -86,7 +86,7 @@ main {
 
 .wellcome-container {
 
-    background-image: url('B9A1-New-Year-New-Mission/resources/Vectorrr.png');
+    background-image: url('resources/Vectorrr.png');
     background-size: cover;
     border-radius: 16px;
 
@@ -271,7 +271,7 @@ main {
     justify-content: center;
     /* max-width: 300px; */
     margin-top: 30px;
-    background-image: url('B9A1-New-Year-New-Mission/resources/Rectangle\ 2.png');
+    background-image: url('resources/ractengle-2.png');
     background-repeat: no-repeat;
     background-position: bottom;
     margin-bottom: 50px;
@@ -290,7 +290,7 @@ main {
 }
 
 .img-left {
-    background-image: url('B9A1-New-Year-New-Mission/resources/Group\ 44.png');
+    background-image: url('resources/Group-44.png');
     background-repeat: no-repeat;
     background-position: top right;
 
