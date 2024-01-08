@@ -20,6 +20,7 @@ main {
     background-image: url('B9A1-New-Year-New-Mission/resources/Banner\ Image.png');
     background-size: cover;
     margin: 0 auto;
+    border-radius: 16px;
 
 }
 
@@ -87,6 +88,7 @@ main {
 
     background-image: url('B9A1-New-Year-New-Mission/resources/Vectorrr.png');
     background-size: cover;
+    border-radius: 16px;
 
 }
 
@@ -129,6 +131,8 @@ main {
 /* schedule area style  */
 .schedule-container {
     background-image: linear-gradient(to bottom right, #FFEAEA, rgba(255, 0, 0, 0));
+    border-radius: 16px;
+
 }
 
 .schedule-top {
@@ -271,6 +275,8 @@ main {
     background-repeat: no-repeat;
     background-position: bottom;
     margin-bottom: 50px;
+    border-radius: 16px;
+
 
 
 }
@@ -336,9 +342,10 @@ main {
 }
 
 /* subscriber style  */
-.subscribe-container{
+.subscribe-container {
     margin-bottom: 100px;
 }
+
 .subscribe-item {
     text-align: center;
     border-radius: 16px;
@@ -396,4 +403,60 @@ input[type="email"] {
     background: #F00;
     padding: 20px 50px 20px;
     overflow: none;
+}
+
+
+/* footer style  */
+.footer-container {
+    background-color: #070211;
+}
+
+.footer-head {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.foot-left {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.foot-right {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+}
+
+hr {
+    background: rgba(255, 255, 255, 0.15);
+    height: 2px;
+    margin: 0px 30px 0px;
+}
+
+.footer-body {
+    padding: 40px 0px 40px;
+    text-align: center;
+}
+
+.footer-body img {
+    margin-right: 10px;
+}
+
+.footer-foot {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 120px 90px;
+}
+
+.f-left, .f-right {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
