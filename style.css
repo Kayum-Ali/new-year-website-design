@@ -19,7 +19,7 @@ main {
 .banner-item {
     background-image: url('resources/banner.png');
     background-size: cover;
-    margin: 0 auto;
+    margin: 50px auto;
     border-radius: 16px;
 
 }
