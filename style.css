@@ -347,16 +347,12 @@ main {
 .subscribe-container{
     margin-bottom: 100px;
 }
-
 .subscribe-item {
     text-align: center;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     padding: 60px 100px;
-
-
 }
-
 .subscribe-title {
     color: #070211;
     text-align: center;
@@ -461,4 +457,11 @@ hr {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+}
+.number, .website{
+    position: relative;
+}
+.align-center{
+    position: absolute;
+  left: -30px;
 }
